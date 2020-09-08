@@ -285,8 +285,8 @@ url_file = url_file_name + ".csv"
 urls_df = pd.read_csv(url_file)
 # df.head()
 # N = no of articles to be scrapped
-N = 2
-
+#N = 2
+N = len(urls_df)
 # MAKE LISTS
 urls = urls_df.url.to_list() 
 topics = urls_df.Tag.to_list()

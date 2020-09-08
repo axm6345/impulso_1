@@ -14,4 +14,7 @@ and Run the body scraper script with
 ```
 4. To scrap for other tags, please download the URL files from the drive.
 5. Place it next to the python file.
-6. In the python file, please change the variable 'url_file' to new urls file and run the script.
+6. In the python file, please change the variable 'url_file' to new urls file
+
+
+*Tip*: If you want a trial, you can set 'N' to 5 or 10 to try scrapping for 5-10 articles. By default it will scrap all the urls.

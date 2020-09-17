@@ -45,7 +45,7 @@ There are two sub folders for 2009-16 and 2016-20.
 
 
 *P.S.*
-*
+
 -requirements.txt is available for the environment setup. Please ensure  correct version of chrome driver in respective folders.
 
 

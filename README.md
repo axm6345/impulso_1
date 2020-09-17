@@ -15,6 +15,7 @@
 11. blockquotes	: Quotes used by the writers
 12. bold_text	: List of important sentances 
 13. italic_text : List of codes or special terms as highlighted by writers
+14. figures : List of image URLs
 
 
 
@@ -44,5 +45,8 @@ There are two sub folders for 2009-16 and 2016-20.
 
 
 *P.S.*
+*
 -requirements.txt is available for the environment setup. Please ensure  correct version of chrome driver in respective folders.
+
+
 -You can also refer instance setup file - example in Medium_scrape_text_and_image folder.

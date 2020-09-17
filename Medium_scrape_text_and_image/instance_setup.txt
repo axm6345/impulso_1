@@ -1,0 +1,18 @@
+install google chrome if not installed already
+
+install anaconda
+
+pip install selenium shortuuid
+
+copy csvs and python scripts from local computer to instance
+
+download suitable chrome driver for the chrome browser version from https://chromedriver.chromium.org/
+
+put the driver exe file in the same folder as script and csv
+
+change directory and set folder path on command prompt
+
+then run:
+
+python article_text_scraping.py
+

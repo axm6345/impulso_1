@@ -18,33 +18,31 @@
 
 
 
-## Steps:
-
-1. Download the repo.
-
-2. Set up the environment with requirements.txt 
-```
->> pip install -r requirements.txt 
-```
-
-3. Go in the folder  
-```
->> cd medium_scrapping
-```
-and Run the body scraper script with
-```
->> python article_text_scraping.py
-```
-
-4. To scrap for other tags, please download the URL files from the drive.
-
-5. Place it next to the python file.
-
-6. In the python file, please change the variable ```url_file_name``` to new urls file and run.  
-
-7. You would notice one CSV and one json file written in same folder with the contents.
+## Steps
 
 
+### 1. Collect URLS from medium
+- Folder : Medium_URL_Scraper
+- Script to run: scrape_master.py
+- Settings in script: You can change the tag and timeline.
+
+### 2. Remove redundent URLs and further cleaning: 
+Same URL could be found multiple times, under multiple different tags. 
+There are two sub folders for 2009-16 and 2016-20.
+- Folder : Medium_scrape_URL_cleaning_EDA
+- Scripts to run: Go in the corresponding folder and you will see a jupyter notebook (e.g. data_cleaning_2016-2020.ipynb)
+- Raw data : in folder scraped_tags
+- Final output: Single CSV for that time period (e.g. Medium_scrape_urls_multi-tag _clean_2016-2020.csv)
+
+### 3. Scrap body and image URLS 
+- Folder : Medium_scrape_text_and_image
+- Script to run : article_text_img_scraping.py
+- Input data: Please place cleaned csv- as generated on 2nd step. (e.g. Medium_scrape_urls_multi-tag _clean_2016-2020.csv)
+- Output data: contents_op_*.csv
+
+*Note*: As per request 5 sample articles are scrapped. Please refer - contents_op_Medium_scrape_urls_multi-tag _clean_2016-2020.csv
 
 
-*Tip*: If you want a trial, you can set 'N' to 5 or 10 to try scrapping for 5-10 articles. By default it will scrap all the urls.
+*P.S.*
+-requirements.txt is available for the environment setup. Please ensure  correct version of chrome driver in respective folders.
+-You can also refer instance setup file - example in Medium_scrape_text_and_image folder.

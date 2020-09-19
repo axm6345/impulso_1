@@ -3,20 +3,22 @@
 ## Data dictionary (output columns):
 
 1. UUID : Universally unique identifier created for each article URL	
-2. url : Article URL	
-3. topic : Main topic or key word e.g. Data science / Artificial intelligence / ..	
-4. title : Title of the article	
-5. subtitle	: If available, subtitle for further emphasis on the article's theme
-6. tags	: associated tags which are covered in the article
-7. author	: list of writers
-8. h1_headers : List of first level headings	
-9. h2_headers	: List of second level headings
-10. paragraphs : List of paragraphs (each paragraph is a separate entity of 2-5 sentences generally)	
-11. blockquotes	: Quotes used by the writers
-12. bold_text	: List of important sentances 
-13. italic_text : List of codes or special terms as highlighted by writers
-14. figures : List of image URLs
-
+1. url : Article URL	
+1. topic : Main topic or key word e.g. Data science / Artificial intelligence / ..	
+1. title : Title of the article	
+1. subtitle	: If available, subtitle for further emphasis on the article's theme
+1. tags	: associated tags which are covered in the article
+1. tag_links : links underlying the tags :zap:
+1. author	: list of writers
+1. h1_headers : List of first level headings	
+1. h2_headers	: List of second level headings
+1. paragraphs : List of paragraphs (each paragraph is a separate entity of 2-5 sentences generally)	
+1. blockquotes	: Quotes used by the writers
+1. bold_text	: List of important sentances 
+1. italic_text : List of codes or special terms as highlighted by writers
+1. figures : List of 'full-size' image URLs  :zap:
+1. links : List of internal reference links in the article :zap:
+1. external_links : List of links that point outside medium or its partner websites  :zap:
 
 
 ## Steps
@@ -41,10 +43,12 @@ There are two sub folders for 2009-16 and 2016-20.
 - Input data: Please place cleaned csv- as generated on 2nd step. (e.g. Medium_scrape_urls_multi-tag _clean_2016-2020.csv)
 - Output data: contents_op_*.csv
 
-*Note*: As per request 5 sample articles are scrapped. Please refer - contents_op_Medium_scrape_urls_multi-tag _clean_2016-2020.csv
+:point_right: New copy of sample articles are scrapped. Please refer - contents_op_Medium_scrape_urls_multi-tag _clean_2016-2020.csv
 
 
 *P.S.*
+:memo:
+:pencil:
 
 -requirements.txt is available for the environment setup. Please ensure  correct version of chrome driver in respective folders.
 

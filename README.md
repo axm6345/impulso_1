@@ -43,7 +43,11 @@ There are two sub folders for 2009-16 and 2016-20.
 - Input data: Please place cleaned csv- as generated on 2nd step. (e.g. Medium_scrape_urls_multi-tag _clean_2016-2020.csv)
 - Output data: contents_op_*.csv
 
-:high_brightness: New copy of sample articles are scrapped. Please refer - contents_op_Medium_scrape_urls_multi-tag _clean_2016-2020.csv
+:high_brightness: New copy of sample articles are scrapped. 
+
+Please refer : contents_op_Medium_scrape_urls_multi-tag _clean_2016-2020.csv
+
+[a link](https://github.com/ahm10/impulso/blob/master/Medium_scrape_text_and_image/2016-2020/contents_op_Medium_scrape_urls_multi-tag%20_clean_2016-2020.csv)
 
 
 *P.S.*

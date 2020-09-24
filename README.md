@@ -1,6 +1,6 @@
-# Wiki Scrapper
+# Wiki Scrapper   :heavy_check_mark:
 
-## Data dictionary (output JSON):   :heavy_check_mark:
+## Data dictionary (output JSON):   
 
 1. URL : URL of the article
 1. tag : the topic of article
@@ -44,7 +44,7 @@
 
 
 ### 1. Collect URLS from medium
-- Folder : Medium_URL_Scraper
+- Folder : medium-url-scraper
 - Script to run: scrape_master.py
 - Settings in script: You can change the tag and timeline.
 

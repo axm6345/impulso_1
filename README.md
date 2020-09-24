@@ -1,4 +1,23 @@
-# Medium_Scraper
+# Wiki Scrapper
+
+## Data dictionary (output JSON):   :heavy_check_mark:
+
+1. URL : URL of the article
+1. tag : the topic of article
+1. sections : levelled list of sections
+1. full_text : entire text body
+
+
+## Steps
+- Folder : wiki_scrape
+- Script to run: single_article_with_category_levels.py
+- Settings in script: List of tags to scrap. Please add all the tags you want in this list. 
+- Output data: A JSON containing above mentioned attributes. You can review example file - wiki_content_Machine learning.json
+
+
+
+
+# Medium_Scraper  :heavy_check_mark:
 
 ## Data dictionary (output columns):
 
@@ -8,7 +27,7 @@
 1. title : Title of the article	
 1. subtitle	: If available, subtitle for further emphasis on the article's theme
 1. tags	: associated tags which are covered in the article
-1. tag_links : links underlying the tags :heavy_check_mark:
+1. tag_links : links underlying the tags  
 1. author	: list of writers
 1. h1_headers : List of first level headings	
 1. h2_headers	: List of second level headings
@@ -16,9 +35,9 @@
 1. blockquotes	: Quotes used by the writers
 1. bold_text	: List of important sentances 
 1. italic_text : List of codes or special terms as highlighted by writers
-1. figures : List of 'full-size' image URLs  :heavy_check_mark:
-1. links : List of internal reference links in the article :heavy_check_mark:
-1. external_links : List of links that point outside medium or its partner websites  :heavy_check_mark:
+1. figures : List of 'full-size' image URLs   
+1. links : List of internal reference links in the article  
+1. external_links : List of links that point outside medium or its partner websites   
 
 
 ## Steps

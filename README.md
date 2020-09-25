@@ -12,6 +12,7 @@
 - Folder : wiki_scrape
 - Script to run: single_article_with_category_levels.py
 - Settings in script: List of tags to scrap. Please add all the tags you want in this list. 
+- Or you can also use CSV read. The code is added with a sample ML.CSV. You would need to place the CSV in the same folder and specify the CSV name inside the script under the variable filename. :heavy_check_mark:
 - Output data: A JSON containing above mentioned attributes. You can review example file - wiki_content_Machine learning.json
 
 
